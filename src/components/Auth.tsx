@@ -149,7 +149,7 @@ const Auth: React.FC<AuthProps> = ({ onClose, onLoginSuccess }) => {
                 <label className="block text-[10px] font-black text-gray-400 uppercase tracking-widest mb-1.5 ml-1">Full Name</label>
                 <div className="relative">
                    <User className="absolute left-4 top-3.5 text-gray-300" size={18} />
-                   <input name="name" type="text" required onChange={handleChange} className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-[#2A52BE] outline-none transition-all text-sm" placeholder="Shyam Kumar" />
+                   <input name="name" type="text" required onChange={handleChange} className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-transparent rounded-xl focus:bg-white focus:border-[#2A52BE] outline-none transition-all text-sm" placeholder="Your Full Name" />
                 </div>
               </div>
 
